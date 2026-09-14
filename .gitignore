@@ -1,0 +1,6 @@
+data/raw/
+*.zip
+*.csv
+*.mdf
+*.ndf
+*.ldf
