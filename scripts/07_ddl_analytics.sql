@@ -11,7 +11,6 @@ Actions:
     - Creates patient, provider, organization, payer, and condition dimensions.
     - Creates the encounter fact table.
     - Adds surrogate identity keys to the dimension tables.
-    - Defines the appropriate data types and primary keys.
 
 Warning:
     Running this script drops and recreates the analytics tables. Any existing
