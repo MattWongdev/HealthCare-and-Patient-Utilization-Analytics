@@ -12,12 +12,9 @@ Actions Performed:
     - Loads patient, provider, organization, payer, and condition dimensions.
     - Generates surrogate identity keys for dimension records.
     - Matches encounter UUIDs to their corresponding dimension keys.
-    - Loads one row per encounter into analytics.fact_encounter.
-    - Calculates encounter date and patient responsibility.
     - Prints the execution duration for each table.
-    - Reports errors through TRY/CATCH error handling.
 
-Usage Example:
+Use:
     EXEC analytics.load_analytics;
 ===============================================================================
 */
